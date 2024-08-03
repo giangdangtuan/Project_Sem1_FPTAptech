@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Porsche</title>
+    <link rel="stylesheet" href="asset/css/Porsche.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+
+</head>
+
+<body>
+<!--Navbar-->
+<header>
+    <!--Nav container-->
+    <div class="nav container">
+        <!--Menu icon-->
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <!--logo-->
+        <a href="#" class="logo1"> Auto<span>World</span></a>
+        <!--Nav list-->
+        <ul class="navbar">
+            <li><a href="HomePage.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="Porsche.html" class="active">Cars</a></li>
+            <li><a href="motors.html">Motors</a></li>
+            <li><a href="Payment.html">Payment</a></li>
+            <li><a href="Maintenance.html">Maintenance</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <!--Search icon-->
+        <i class='bx bx-search' id="search-icon"></i>
+        <!--Search box-->
+        <div class="search-box container">
+            <input type="search" placeholder="Search here......">
+        </div>
+    </div>
+</header>
+<!-- HOME -->
+<section class="home" id="home">
+    <div class="home-text">
+        <h1>We have everything<br>You Need About</h1>
+        <h1><span> Cars</span> And<span> Motorcylcles</span> </h1>
+    </div>
+</section>
+<!--Cars Section-->
+<section class="cars" id="cars" id="filter">
+    <div class="heading">
+        <span>What we offer</span>
+        <h2>Our Car Is Always Excellent</h2>
+        <p>Your satisfaction is our pleasure</p>
+    </div>
+
+        <div class="navbar container" id="filter_button">
+            <ul class="navbar" id="navbar1">
+                <li><a class="tab-item active" data-filter="all">All</a></li>
+                <li><a class="tab-item" data-filter="porsche">Porsche</a></li>
+                <li><a class="tab-item" data-filter="audi">Audi</a></li>
+                <li><a class="tab-item" data-filter="merc">Mercedes</a></li>
+                <li><a class="tab-item" data-filter="ford">Ford</a></li>
+                <li><a class="tab-item" data-filter="bmw">BMW</a></li>
+                <li><a class="tab-item" data-filter="ferrari">Ferrari</a></li>
+            </ul>
+            <form action="" id="input_filter">
+                <input class="input-elevated" type="search" placeholder="Search here..." id="search-item" autocomplete="off">
+            </form>
+        </div>
+
+<!--    <div class="cars-container container element_porsche" id="displayElement">-->
+<!--    Cars Container-->
+    <div class="cars-container container" id="filter-data">
+<!--        Box1-->
+            <div class="box element_all" data-item="porsche">
+                <div class="info">
+                    <h3 class="name_item">718 Cayman T</h3>
+                    <img src="asset/img/pc1.jpg" alt="">
+                    <span>$219.991</span>
+                    <i class='bx bxs-star'><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i>(3k5 Reviews)</i>
+                    <a href="contact.html" class="btn">Contact</a>
+                    <a target="_blank" href="PDetail.html" class="details">View Details</a>
+                </div>
+            </div>
+        <!--Box2-->
+        <div class="box element_all" data-item="porsche">
+            <div class="info">
+                <h3 class="name_item">Taycan 4S</h3>
+                <img src="asset/img/pc2.jpg" alt="">
+                <span>$307.108</span>
+                <i class='bx bxs-star'><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i>(35k Reviews)</i>
+                <a href="contact.html" class="btn">Contact</a>
+                <a href="#" class="details">View Details</a>
+            </div>
+        </div>
+        <!--Box3-->
+        <div class="box element_all" data-item="porsche">
+            <div class="info">
+                <h3 class="name_item">Macan</h3>
+                <img src="asset/img/pc3.jpg" alt="">
+                <span>$192.634</span>
+                <i class='bx bxs-star'><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i>(17k Reviews)</i>
+                <a href="contact.html" class="btn">Contact</a>
+                <a href="#" class="details">View Details</a>
+            </div>
+        </div>
+        <!--Box4-->
+        <div class="box element_all" data-item="porsche">
+            <div class="info">
+                <h3 class="name_item">Cayenne Coupé Platinum</h3>
+                <img src="asset/img/pc4.jpg" alt="">
+                <span>$172.634</span>
+                <i class='bx bxs-star'><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i>(17k Reviews)</i>
+                <a href="contact.html" class="btn">Contact</a>
+                <a href="#" class="details">View Details</a>
+            </div>
+        </div>
+        <!--Box5-->
+        <div class="box element_all" data-item="porsche">
+            <div class="info">
+                <h3 class="name_item">Taycan 4S Cross Turismo</h3>
+                <img src="asset/img/pc5.jpg" alt="">
+                <span>$268.634</span>
+                <i class='bx bxs-star'><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i>(17k Reviews)</i>
+                <a href="contact.html" class="btn">Contact</a>
+                <a href="#" class="details">View Details</a>
+            </div>
+        </div>
+        <!--Box6-->
+        <div class="box element_all" data-item="porsche">
+            <div class="info">
+                <h3 class="name_item">Panamera GTS</h3>
+                <img src="asset/img/pc6.jpg" alt="">
+                <span>$257.634</span>
+                <i class='bx bxs-star'><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i>(17k Reviews)</i>
+                <a href="contact.html" class="btn">Contact</a>
+                <a href="#" class="details">View Details</a>
+            </div>
+        </div>
+        <!--Box7-->
+        <div class="box element_all" data-item="audi">
+            <div class="info">
+                <h3 class="name_item">2023 Audi e-tron</h3>
+                <img src="asset/img/audi1.jpg" alt="">
+                <span>$369.634</span>
+                <i class='bx bxs-star'><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i>(17k Reviews)</i>
+                <a href="contact.html" class="btn">Contact</a>
+                <a href="#" class="details">View Details</a>
+            </div>
+        </div>
+        <!--Box8-->
+        <div class="box element_all" data-item="audi">
+            <div class="info">
+                <h3 class="name_item">2023 Audi SQ5</h3>
+                <img src="asset/img/audi2.jpg" alt="">
+                <span>$192.634</span>
+                <i class='bx bxs-star'><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i>(17k Reviews)</i>
+                <a href="#" class="btn">Contact</a>
+                <a href="#" class="details">View Details</a>
+            </div>
+        </div>
+        <!--Box9-->
+        <div class="box element_all" data-item="audi">
+            <div class="info">
+                <h3 class="name_item">2023 SQ7</h3>
+                <img src="asset/img/audi3.jpg" alt="">
+                <span>$311.634</span>
+                <i class='bx bxs-star'><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i>(17k Reviews)</i>
+                <a href="#" class="btn">Contact</a>
+                <a href="#" class="details">View Details</a>
+            </div>
+        </div>
+        <!--Box10-->
+        <div class="box element_all" data-item="audi">
+            <div class="info">
+                <h3 class="name_item">2023 SQ8</h3>
+                <img src="asset/img/audi4.jpg" alt="">
+                <span>$264.634</span>
+                <i class='bx bxs-star'><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i>(17k Reviews)</i>
+                <a href="#" class="btn">Contact</a>
+                <a href="#" class="details">View Details</a>
+            </div>
+        </div>
+        <!--Box11-->
+        <div class="box element_all" data-item="audi">
+            <div class="info">
+                <h3 class="name_item">2023 A3</h3>
+                <img src="asset/img/audi5.jpg" alt="">
+                <span>$273.634</span>
+                <i class='bx bxs-star'><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i>(17k Reviews)</i>
+                <a href="#" class="btn">Contact</a>
+                <a href="#" class="details">View Details</a>
+            </div>
+        </div>
+        <!--Box12-->
+        <div class="box element_all" data-item="audi">
+            <div class="info">
+                <h3 class="name_item">2023 S3 Prestige</h3>
+                <img src="asset/img/audi6.jpg" alt="">
+                <span>$279.634</span>
+                <i class='bx bxs-star'><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i>(17k Reviews)</i>
+                <a href="#" class="btn">Contact</a>
+                <a href="#" class="details">View Details</a>
+            </div>
+        </div>
+        <!--Box13-->
+        <div class="box element_all" data-item="merc">
+            <div class="info">
+                <h3 class="name_item">GLA 2022</h3>
+                <img src="asset/img/mer1.jpg" alt="">
+                <span>$401.991</span>
+                <i class='bx bxs-star'><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i>(3k5 Reviews)</i>
+                <a href="Payment.html" class="btn">Contact</a>
+                <a target="_blank" href="" class="details">View Details</a>
+            </div>
+        </div>
+        <!--Box14-->
+        <div class="box element_all" data-item="merc">
+            <div class="info">
+                <h3 class="name_item">EQS 2022</h3>
+                <img src="asset/img/mer2.jpg" alt="">
+                <span>$260.991</span>
+                <i class='bx bxs-star'><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i>(3k5 Reviews)</i>
+                <a href="Payment.html" class="btn">Contact</a>
+                <a target="_blank" href="" class="details">View Details</a>
+            </div>
+        </div>
+        <!--Box15-->
+        <div class="box element_all" data-item="merc">
+            <div class="info">
+                <h3 class="name_item">C-Class 2022</h3>
+                <img src="asset/img/mer3.jpg" alt="">
+                <span>$172.991</span>
+                <i class='bx bxs-star'><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i>(3k5 Reviews)</i>
+                <a href="Payment.html" class="btn">Contact</a>
+                <a target="_blank" href="" class="details">View Details</a>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer1">
+    <div class="footer-container1 container1">
+        <div class="footer-box1">
+            <a href="" class="logo1">Auto<span>World</span></a>
+            <div class="social">
+                <a href=""><i class='bx bxl-facebook' ></i></a>
+                <a href=""><i class='bx bxl-twitter' ></i></a>
+                <a href=""><i class='bx bxl-instagram' ></i></a>
+                <a href=""><i class='bx bxl-youtube' ></i></a>
+            </div>
+        </div>
+        <div class="footer-box1">
+            <h3>Page</h3>
+            <a href="HomePage.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="Porsche.html">Cars</a>
+            <a href="motors.html">Motors</a>
+        </div>
+        <div class="footer-box1">
+            <h3>Legal</h3>
+            <a href="">Privacy</a>
+            <a href="">Refund Policy</a>
+            <a href="">Cookie Policy</a>
+        </div>
+        <div class="footer-box1">
+            <h3>Contact</h3>
+            <p>United States</p>
+            <p>Japan</p>
+            <p>Germany</p>
+        </div>
+        <div class="footer-box1">
+            <h3>Address</h3>
+            <p>Showroom 1: 594 Duong Lang, Dong Da, Ha Noi</p>
+            <div style="width:200px;height:50px;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!
+    1d3723.8977453149246!2d105.83245751424809!3d21.036777085994046!
+    2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!
+    1s0x3135aba15ec15d17%3A0x620e85c2cfe14d4c!2zTMSDbmcgSOG7kyBDaMOtIE1pbmg!
+    5e0!3m2!1svi!2sus!4v1501056274257" width="300" height="50"
+                        frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <p>Showroom 2: Nam Ky Khoi Nghia</p>
+            <div style="width:200px;height:50px;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!
+    1d3723.8977453149246!2d105.83245751424809!3d21.036777085994046!
+    2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!
+    1s0x3135aba15ec15d17%3A0x620e85c2cfe14d4c!2zTMSDbmcgSOG7kyBDaMOtIE1pbmg!
+    5e0!3m2!1svi!2sus!4v1501056274257" width="300" height="50"
+                        frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--Copyright-->
+<div class="copyright">
+    <p>&#169; Carpool All Right Reserved</p>
+</div>
+<script src="Porsche.js"></script>
+<script src="main.js"></script>
+
+</body>
+
+</html>
